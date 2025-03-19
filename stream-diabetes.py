@@ -5,7 +5,7 @@ import streamlit as st
 diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
 # Menambahkan Gambar atau Logo
-st.image("gambar_diabetes.jpg", use_column_width=True)
+st.image("gambar_diabetes.jpg", use_container_width=True)
 
 # Judul dan Deskripsi
 st.title('Aplikasi Prediksi Diabetes')
